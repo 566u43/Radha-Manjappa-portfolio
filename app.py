@@ -272,12 +272,12 @@ from datetime import datetime
 hour = datetime.now().hour
 
 if hour < 12:
-    greeting = "🌅 Good Morning"
+    greeting = " Good Morning 👋"
 elif hour < 17:
-    greeting = "☀️ Good Afternoon"
+    greeting = " Good Afternoon 👋"
 else:
-    greeting = "🌙 Good Evening"
-
+    greeting = " Good Evening 👋"
+st.title(greeting)
 
 
 st.markdown(f"""
