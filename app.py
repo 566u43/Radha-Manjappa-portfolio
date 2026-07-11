@@ -294,7 +294,7 @@ border:1px solid rgba(255,255,255,0.25);
 color:white;
 box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
 ">
-{greeting}  👋
+{greeting} 
 </div>
 """, unsafe_allow_html=True)
 # =========================
