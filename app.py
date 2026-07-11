@@ -277,7 +277,7 @@ elif hour < 17:
     greeting = " Good Afternoon 👋"
 else:
     greeting = " Good Evening 👋"
-st.title(greeting)
+
 
 
 st.markdown(f"""
@@ -369,7 +369,7 @@ with center:
 
     if st.session_state.page == "About Me":
 
-        st.title("About Me")
+        st.header("About Me")
 
         st.markdown("""
 ## 👋 Hello, I'm Radha M
@@ -386,7 +386,7 @@ I work with Python, SQL, Power BI, Excel, Pandas, Streamlit, and Data Analytics.
         with s1:
             st.markdown("""
             <div class="service-card">
-            <h3>📊 Data Analysis</h3>
+            <h3>📊 Data Analytics</h3>
             <p>Analyze business data using Python, Pandas, SQL and Excel.</p>
             </div>
             """, unsafe_allow_html=True)
@@ -416,7 +416,7 @@ I work with Python, SQL, Power BI, Excel, Pandas, Streamlit, and Data Analytics.
         
         
 
-        st.title("🛠  Technical Skills")
+        st.header("🛠  Technical Skills")
         col1, col2 = st.columns(2)
 
         with col1:
@@ -450,7 +450,7 @@ I work with Python, SQL, Power BI, Excel, Pandas, Streamlit, and Data Analytics.
     # =====================
     elif st.session_state.page == "Projects":
 
-        st.title("📂 Projects")
+        st.header("📂 Projects")
         if st.button("⬅ Back to Home"):
             st.session_state.page = "About Me"
 
@@ -484,7 +484,7 @@ I work with Python, SQL, Power BI, Excel, Pandas, Streamlit, and Data Analytics.
     # =====================
     elif st.session_state.page == "Experience":
 
-        st.title("💼 Experience")
+        st.header("💼 Experience")
         if st.button("⬅ Back to Home"):
             st.session_state.page = "About Me"
 
@@ -524,7 +524,7 @@ I work with Python, SQL, Power BI, Excel, Pandas, Streamlit, and Data Analytics.
 
     elif st.session_state.page == "Certifications":
 
-        st.title("🏆 Certifications")
+        st.header("🏆 Certifications")
 
         if st.button("⬅ Back to Home"):
             st.session_state.page = "About Me"
@@ -544,7 +544,7 @@ I work with Python, SQL, Power BI, Excel, Pandas, Streamlit, and Data Analytics.
 
     elif st.session_state.page == "Education":
 
-        st.title("🎓 Education")
+        st.header("🎓 Education")
 
         if st.button("⬅ Back to Home"):
             st.session_state.page = "About Me"
@@ -574,7 +574,7 @@ I work with Python, SQL, Power BI, Excel, Pandas, Streamlit, and Data Analytics.
 
 with nav:
 
-    st.markdown("### Navigation")
+    st.markdown("### Explore")
 
     if st.button("🛠 Skills"):
         st.session_state.page = "Skills"
