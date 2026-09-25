@@ -372,7 +372,7 @@ with center:
         st.header("About Me")
 
         st.markdown("""
-## 👋 Hello, I'm Radha M
+##  Hello, I'm Radha M
 
 Python Developer and Data Analyst passionate about building interactive dashboards, business insights, and data-driven solutions.
 
